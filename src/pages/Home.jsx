@@ -1,14 +1,11 @@
-import { useLoaderData } from "react-router-dom";
 import Banner from "../components/Home/Banner";
-import Train from "../components/Home/Train";
+import Trains from "../components/Home/Trains";
 
 const Home = () => {
-  const trains = useLoaderData();
-
   return (
     <>
       <Banner />
-      <Train trains={trains.results} />
+      <Trains />
     </>
   );
 };

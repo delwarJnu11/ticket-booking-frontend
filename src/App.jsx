@@ -9,7 +9,6 @@ const App = () => {
       <div className="md:container mx-auto">
         <Outlet />
       </div>
-      <hr />
       <Footer />
     </>
   );
